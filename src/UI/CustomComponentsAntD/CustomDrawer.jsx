@@ -12,7 +12,7 @@ const CustomDrawer = ({
   extra,
   placement = "right",
   children,
-  closeIcon = null,
+  closeIcon,
   footer = null,
 }) => (
   <Drawer
@@ -21,12 +21,10 @@ const CustomDrawer = ({
     width={width}
     footer={footer}
     onClose={onClose}
-    visible={isOpenDrawer}
+    open={isOpenDrawer}
     className={className}
     placement={placement}
     closeIcon={closeIcon}
-    bodyStyle={bodyStyle}
-    headerStyle={headerStyle}
   >
     {children}
   </Drawer>
