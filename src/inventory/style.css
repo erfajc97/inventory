@@ -1,0 +1,87 @@
+
+.inventory_container{
+   
+    height: calc(100vh - 8rem);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.inventory_title_container{
+   
+    padding:  8px 0 ;
+    background: #626C7B;
+    border-radius: 10px 10px 0 0;
+}
+.inventory_title{
+    text-align: center;
+    margin-top: 2px;
+    color: aliceblue;
+    
+}
+.inventory_list_container{
+    background: #ffffff;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    height:calc(100% - 6.3rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.1)!important;
+    
+}
+
+.searchBar_container{
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 1rem 1rem 0 1rem !important;
+    background: #ffffff !important;
+}
+
+.search{
+    border-radius: 20px 0 0px 20px !important;
+    border-right: none !important;
+    
+}
+
+.inventory_list{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.container_btn-add-product{
+    position: absolute;
+    bottom: 6rem;
+    right: 3rem;
+}
+
+.btn-add-product{
+    color: aliceblue !important ;
+    background-color: #10B48C !important ;
+    height: 3rem !important;
+    width: 3rem !important;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.1)!important;
+}
+
+.element-item-name{
+    cursor: pointer;
+    position: relative;
+}
+.element-item-name:hover {
+    width: 85%;
+    border-radius: 10px;
+    border: #10B48C 1px solid;
+    padding: 0.8rem 0 0 0.8rem;
+}
+.element-item-name:hover .element-item-btns {
+  display: flex;
+}
+.element-item-btns {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0.7rem;
+  
+}
